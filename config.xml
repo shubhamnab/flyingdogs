@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        version     = "1.0.0"
+        versionCode = "10" >
+
+        <!-- versionCode is optional and Android only -->
+
+        <preference name="phonegap-version" value="3.5.0" />
+
+        <name>Flying Dogs</name>
+
+        <description>
+        Its a interesting game. 
+        </description>
+
+        <author href="http://www.webflax.in/" email="shubhamjaiswal1860@gmail.com">
+        Shubham Jaiswal
+        </author>
+		
+		<icon src="icon.png" />
+    <icon src="icon.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="icon.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="icon.png"   gap:platform="android"    gap:density="hdpi" />
+    <icon src="icon.png"  gap:platform="android"    gap:density="xhdpi" />
+    <icon src="icon.png"  gap:platform="winphone" />
+    
+
+    </widget>
